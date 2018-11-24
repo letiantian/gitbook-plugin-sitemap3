@@ -1,30 +1,32 @@
 {
-    "name": "gitbook-plugin-sitemap",
-    "description": "Generate a sitemap for a GitBook",
+    "name": "gitbook-plugin-sitemap3",
+    "description": "Generate a sitemap for a GitBook, which support subpath. Base on https://github.com/GitbookIO/plugin-sitemap",
     "main": "index.js",
-    "version": "1.2.0",
+    "version": "0.0.1",
     "engines": {
         "gitbook": ">=3.0.0-pre.0"
     },
-    "homepage": "https://github.com/GitbookIO/plugin-sitemap",
-    "keywords": ["seo"],
+    "homepage": "https://github.com/letiantian/gitbook-plugin-sitemap3",
+    "keywords": [
+        "seo"
+    ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/GitbookIO/plugin-sitemap.git"
+        "url": "https://github.com/letiantian/gitbook-plugin-sitemap3.git"
     },
     "dependencies": {
         "sitemap": "1.5.0"
     },
     "license": "Apache-2.0",
     "bugs": {
-        "url": "https://github.com/GitbookIO/plugin-sitemap/issues"
+        "url": "https://github.com/letiantian/gitbook-plugin-sitemap3/issues"
     },
     "gitbook": {
         "properties": {
             "hostname": {
                 "type": "string",
                 "required": true,
-                "title": "Hostname for the book"
+                "title": "Hostname for the book, support subpath"
             }
         }
     }
