@@ -2,14 +2,16 @@
 
 Generate a sitemap for the gitbook website.
 
+Support subpath
+
 Add it to your `book.json` with a basic configuration:
 
 ```js
 {
-    "plugins": ["sitemap"],
+    "plugins": ["sitemap3"],
     "pluginsConfig": {
-        "sitemap": {
-            "hostname": "http://mybook.com/"
+        "sitemap3": {
+            "hostname": "http://example.com/book1"
         }
     }
 }

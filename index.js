@@ -25,7 +25,7 @@ module.exports = {
         "finish": function() {
             var sitemap = sm.createSitemap({
                 cacheTime: 600000,
-                hostname: this.config.get('pluginsConfig.sitemap.hostname'),
+                hostname: this.config.get('pluginsConfig.sitemap3.hostname'),
                 urls: urls
             });
 
